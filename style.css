@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 3000px;
+
+    position: inherit;
+    animation: colorchange 20s infinite;
+
+
+}
+
+/* background color change  */
+
+
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+
+
+#sun {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    left: 60%;
+    margin-top: 30vh;
+
+}
+
+#birds {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    left: 10%;
+    margin-top: 80vh;
+
+
+
+}
+
+#clouds0 {
+    position: absolute;
+    height: 900px;
+    width: auto;
+    margin-top: 10vh;
+
+
+}
+
+#clouds1 {
+    height: 600px;
+    width: auto;
+    position: fixed;
+    margin-left: -150px;
+
+    margin-top: 90vh;
+
+
+}
+
+#clouds2 {
+    height: 650px;
+    width: auto;
+    position: fixed;
+    margin-left: -200px;
+
+    margin-top: 90vh;
+
+
+
+}
+
+
+#clouds3 {
+    height: 650px;
+    width: auto;
+    position: absolute;
+    margin-left: -200px;
+
+    margin-top: 150vh;
+
+
+
+}
+
+
+#overlay {
+    background-color: #eae2ef;
+    width: 100%;
+    height: 150%;
+    margin-top: 200vh;
+    position: absolute;
+}
