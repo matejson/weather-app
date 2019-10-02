@@ -6,7 +6,7 @@
     "scripts": {
         "devStart": "nodemon server.js",
         "start": "node server.js",
-        "predeploy": "yarn run build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "author": "",
