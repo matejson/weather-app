@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4H8sovc-F5yC2s1u_JoeMezh4k769W_o&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="parallax.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+    <script defer src="script.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+<img src="images/text.png" id="text" class="container">
+
+    <div class="container-fluid container-box">
+        
+        
+        <img src="images/sun.svg" id="sun">
+
+        <img src="images/clouds0.svg" id="clouds0">
+        
+
+        <img src="images/clouds1.svg" id="clouds1">
+
+        <img src="images/clouds2.svg" id="clouds2">
+
+        <div id="overlay">
+        
+
+
+            <div class="container-weather text-center container">
+                <div class="header">
+                    <div class="icon-container">
+                        <canvas id="icon" class="text-center" width="100" height="100"></canvas>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="general-information">
+                        <div class="status" data-status>Wprowadź lokalizację</div>
+                        <div class="location" data-location>Aby wyszukać pogodę</div>
+                    </div>
+                    <div class="detail-section">
+                        <div class="detail">
+                            <div class="title">Wiatr</div>
+                            <div class="value" data-wind>TBD</div>
+                        </div>
+                        <div class="detail bordered">
+                            <div class="title">Temperatura</div>
+                            <div class="value" data-temperature>TBD</div>
+                        </div>
+                        <div class="detail">
+                            <div class="title">Opady</div>
+                            <div class="value" data-precipitation>TBD</div>
+                        </div>
+                    </div>
+                    <div class="city-search-container">
+                        <input type="text" class="city-search" data-city-search placeholder="Enter location">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <img src="images/clouds3.svg" id="clouds3">
+
+<img src="images/birds.svg" id="birds">
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(#d5d5d5 30%, #3a7bd5);
+
+
+}
+
+.container-box {
+    overflow: hidden;
+    width: 100%;
+    height: 1200px;
+
+    min-width: 1150px;
+    position: relative;
+    animation: colorchange 24s infinite;
+
+
+}
+
+/* background color change  */
+
+
+
+@keyframes colorchange {
+    0% {
+        background: #FF6B6B;
+    }
+
+    25% {
+        background: #29ffc6;
+    }
+
+    50% {
+        background: #F0C27B;
+    }
+
+    75% {
+        background: #BB377D;
+    }
+
+    100% {
+        background: #FFAFBD;
+    }
+}
+
+#text {
+    position: absolute;
+    width: 50%;
+    min-width: 400px;
+    height:auto;
+    z-index: 2;
+    margin-top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+
+#sun {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    left: 200px;
+    margin-top: 30vh;
+
+}
+
+#birds {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    left: 10%;
+    margin-top: 80vh;
+
+
+
+}
+
+#clouds0 {
+    position: absolute;
+    height: 900px;
+    width: auto;
+    margin-top: 10vh;
+
+
+}
+
+#clouds1 {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    margin-left: -150px;
+
+    margin-top: 90vh;
+
+
+}
+
+#clouds2 {
+    height: 650px;
+    width: auto;
+    position: absolute;
+    margin-left: -200px;
+
+    margin-top: 90vh;
+
+
+
+}
+
+
+#clouds3 {
+    height: 650px;
+    width: auto;
+    position: absolute;
+    margin-left: -250px;
+
+    margin-top: 100vh;
+
+
+
+}
+
+
+#overlay {
+   
+    background-image: linear-gradient(#eae2ef 10%, #3a7bd5 40%);
+    width: 100%;
+    height: 150%;
+    margin-top: calc(100vh + 35%);
+    position: absolute;
+    margin-left: -15px;
+}
+
+
+
+.container-weather {
+    position: fixed;
+    margin-top: 100px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    width: 1000px;
+    max-width: 90%;
+    background-color: darkgrey;
+    box-shadow: 0 5px 10px black;
+    border-radius: 6px;
+
+
+}
+
+
+
+.content {
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #3e0f69;
+    height: 120px;
+    margin-left: -16px;
+    margin-right: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.icon-container {
+    position: absolute;
+    top: 30px;
+    padding: 20px;
+    background-color: darkgray;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+
+#icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.general-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.status {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.detail-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.detail.bordered {
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+}
+
+
+.detail .title {
+    font-size: 2.3vw;
+    flex-grow: 1;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.detail .value {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.city-search {
+    margin-top: 40px;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.pac-item {
+    font-size 2rem;
+    padding 10px 10px;
+}

@@ -2,7 +2,8 @@ $(document).on("scroll", function () {
 
     var pixels = $(document).scrollTop()
 
-    $('#sun').css('top', -(pixels ** -0.1) + '%');
+    $('#sun').css('top', -(pixels * -0.1) + '%');
+    $('#text').css('top', -(pixels * 0.05) + '%');
     $('#clouds0').css('top', -(pixels * -0.05) + '%');
     $('#clouds1').css('top', -(pixels * 0.175) + '%');
     $('#clouds2').css('top', -(pixels * 0.15) + '%');

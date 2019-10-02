@@ -1,0 +1,28 @@
+{
+  "name": "weather-app-master",
+  "version": "1.0.0",
+  "main": "parallax.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejson/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matejson/weather-app/issues"
+  },
+  "homepage": "https://github.com/matejson/weather-app#readme",
+  "description": ""
+}
