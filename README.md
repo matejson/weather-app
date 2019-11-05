@@ -1,7 +1,10 @@
 # Weather App
-This project is simple Lorem ipsum dolor generator.
+The weather forecasting application using the Google API, the application shows tempreture, rainfall and wind.
 
 ## Technologies used in this project:
-* [General info]
-* [Technologies]
-* [Setup]
+* CSS
+* jQuery
+* Express.js
+
+
+# Preview
