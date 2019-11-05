@@ -8,4 +8,4 @@ Weather may not be the most fascinating subject of conversation, but it’s some
 
 
 # Preview
-<iframe src='//gifs.com/embed/weather-q78Vpy' frameborder='0' scrolling='no' width='1058px' height='870px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<a href="https://imgflip.com/gif/3fdewb"><img src="https://i.imgflip.com/3fdewb.gif" title="made at imgflip.com"/></a>
