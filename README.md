@@ -1,7 +1,7 @@
 # Weather App
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+This project is simple Lorem ipsum dolor generator.
 
 ## Technologies used in this project:
-This project is simple Lorem ipsum dolor generator.
+* [General info]
+* [Technologies]
+* [Setup]
