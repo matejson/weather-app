@@ -8,4 +8,4 @@ Weather may not be the most fascinating subject of conversation, but it’s some
 
 
 # Preview
-<a href="https://imgflip.com/gif/3fdf4k"><img src="https://media.giphy.com/media/W1rnR8SSuIPrzLEqpB/giphy.gif" width="650"></a>
+<a href="https://media.giphy.com/media/W1rnR8SSuIPrzLEqpB/giphy.gif"><img src="https://media.giphy.com/media/W1rnR8SSuIPrzLEqpB/giphy.gif" width="650"></a>
